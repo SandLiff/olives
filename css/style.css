@@ -1089,7 +1089,9 @@ body {
 @media (max-width: 47.99875em) {
   .spollers {
     width: 100%;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .spollers__item {
@@ -1227,7 +1229,7 @@ body {
   }
 
   .page__main {
-    margin-bottom: -9.375rem;
+    margin-bottom: -15.625rem;
   }
 
   .page__finish::before {
